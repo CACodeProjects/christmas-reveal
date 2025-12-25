@@ -4,7 +4,7 @@ const sparkles = document.getElementById("sparkles");
 const confetti = document.getElementById("confetti");
 
 // ===== TIME LOCK (Christmas Eve, 11:00 PM PST) =====
-const UNLOCK_AT = new Date("2025-12-24T19:16:00-08:00");
+const UNLOCK_AT = new Date("2025-12-24T19:18:00-08:00");
 
 //const UNLOCK_AT = new Date(Date.now() + 1 * 15 * 1000);
 
