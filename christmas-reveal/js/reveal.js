@@ -1,5 +1,5 @@
 // ===== TIME LOCK (Christmas Eve, 11:00 PM PST) =====
-const UNLOCK_AT = new Date("2025-12-24T23:00:00-08:00");
+const UNLOCK_AT = new Date("2025-12-24T19:14:00-08:00");
 
 
 if (new Date() < UNLOCK_AT) {
