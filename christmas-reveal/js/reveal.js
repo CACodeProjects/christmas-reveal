@@ -1,7 +1,16 @@
+// ===== TIME LOCK (Christmas Eve, 11:00 PM PST) =====
+const UNLOCK_AT = new Date("2025-12-24T23:00:00-08:00");
+
+
+if (new Date() < UNLOCK_AT) {
+    window.location.replace("./index.html");
+}
+
+
 // Put your two screenshots in /assets/img and update names here.
 const SCREENSHOTS = [
-  "./assets/img/Tickets.png",
-  "./assets/img/View.png",
+  "./assets/img/ticket.png",
+  "./assets/img/seat_view.png",
 ];
 
 const gallery = document.getElementById("gallery");
@@ -26,6 +35,7 @@ function renderGallery() {
     wrap.style.padding = "0";
     wrap.style.border = "0";
     wrap.style.background = "transparent";
+
 
     const img = document.createElement("img");
     img.loading = "lazy";
