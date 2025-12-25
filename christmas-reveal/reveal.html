@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Gift 🎁</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="topbar">
+      <h1 class="title">Merry Christmas 🎄✨</h1>
+      <p class="subtitle">
+          Sorry I couldn’t be there!<br>
+          🎁 More presents to come later 🎁<br>
+          I love you
+      </p>
+    </header>
+
+    <section class="reveal">
+      <div class="card">
+        <h2 class="card__title">We are going to see the Lakers! 🎁</h2>
+        <p class="card__desc">Scroll to view. Tap an image to see it larger.</p>
+
+        <div id="gallery" class="gallery" aria-label="Screenshot gallery"></div>
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <button id="lightboxClose" class="lightbox__close" aria-label="Close">✕</button>
+      <img id="lightboxImg" class="lightbox__img" alt="Full size preview" />
+    </div>
+
+    <footer class="footer">
+      <a class="link" href="./index.html">← Back</a>
+    </footer>
+  </main>
+
+  <script src="./js/reveal.js"></script>
+</body>
+</html>

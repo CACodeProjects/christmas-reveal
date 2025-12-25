@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Christmas Surprise</title>
+  <link rel="preload" href="./assets/img/present-open.png" as="image" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="topbar">
+      <h1 class="title">Tap the present 🎁</h1>
+      <p class="subtitle">A little surprise is waiting…</p>
+    </header>
+
+    <section class="scene" aria-label="Christmas scene">
+      <div class="tree" role="img" aria-label="Christmas tree"></div>
+
+      <button id="presentBtn" class="present" aria-label="Open the present">
+        <span class="present__hint" aria-hidden="true">Tap!</span>
+        <img id="presentImg" src="./assets/img/present-closed.png" alt="Present" />
+        <span class="present__pulse" aria-hidden="true"></span>
+      </button>
+
+      <div id="sparkles" class="sparkles" aria-hidden="true"></div>
+      <div id="confetti" class="confetti" aria-hidden="true"></div>
+    </section>
+
+    <footer class="footer">
+      <small>Made with ❤️ for Christmas</small>
+    </footer>
+  </main>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
